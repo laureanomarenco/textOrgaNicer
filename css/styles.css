@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    padding-left: .8em;
+}
+
+li {
+    padding: .4em;
+}
+
+/* MENU */
+aside {
+    float: left;
+    width: 12%;
+    height: 100%;
+    background-color: antiquewhite;
+    padding: 2em;
+}
+
+.user {
+    padding: .8em;
+    font-weight: 700;
+}
+
+.folder-titulo {
+    font-weight: 600;
+    padding: .8em;
+    cursor: pointer;
+}
+
+.pages-ul {
+    position: absolute;
+    display: none;
+}
+
+.page-li {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: aliceblue;
+}
+
+.visible {
+    position: relative;
+    display: block;
+}
+
+.selected {
+    background-color: aliceblue;
+}
+
+/* PAGE */
+.page-container {
+    padding: 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-new {
+    cursor: pointer;
+}
+
+.folder-new {
+    font-weight: 600;
+    padding: .8em;
+    cursor: pointer;
+}
